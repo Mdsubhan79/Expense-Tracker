@@ -172,3 +172,129 @@ h3{
  .delete-btn:hover{
     background-color: darkred;
  }
+
+ 
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%; 
+        margin: 10px auto; 
+    }
+
+    header {
+        font-size: 1rem; 
+        padding: 10px 0; 
+    }
+
+    .inc-exp-container {
+        flex-direction: column; 
+        padding: 15px; 
+    }
+
+    .inc-exp-container > div:first-of-type {
+        border-right: none; /* Remove border for small screens */
+        margin-bottom: 10px;
+    }
+
+    .money {
+        font-size: 16px; 
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        font-size: 14px; 
+        padding: 8px;
+    }
+
+    .btn {
+        font-size: 14px; 
+        padding: 12px; 
+    }
+
+    .list li {
+        font-size: 14px; 
+        padding: 8px; 
+    }
+
+    .delete-btn {
+        font-size: 16px; 
+        padding: 5px 4px; 
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 70%;
+    }
+
+    header {
+        font-size: 1.1rem;
+    }
+
+    .inc-exp-container {
+        padding: 18px;
+    }
+
+    .money {
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .list li {
+        font-size: 16px;
+        padding: 9px;
+    }
+
+    .delete-btn {
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .container {
+        width: 50%;
+    }
+
+    header {
+        font-size: 1.2rem;
+    }
+
+    .inc-exp-container {
+        padding: 20px;
+    }
+
+    .money {
+        font-size: 20px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .list li {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .delete-btn {
+        font-size: 20px;
+    }
+}
